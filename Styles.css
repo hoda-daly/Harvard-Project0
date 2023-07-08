@@ -1,0 +1,110 @@
+html{
+    
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+
+}
+.nav-item a{
+    text-decoration: none;
+    margin: 10px;
+}
+.Img-center{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 10%;
+
+}
+.rounded {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 20px;
+
+}
+.rounded input{
+    width: 500px;
+    height: 40px;
+    border: 2px solid rgba(151, 150, 150, 0.432);
+    border-radius: 20px;
+    color: gray;
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    gap: 20px;
+}
+.btn1 input[type="submit"]{
+    width: 200px;
+    height: 40px;
+    border:none;
+    font-family:sans-serif;
+    font-weight: bolder;
+    color: rgba(128, 128, 128, 0.753);
+    background-color: rgba(218, 218, 218, 0.233);
+
+}
+.btn1 input[type="submit"]:hover{
+   
+    border:1px solid rgba(161, 161, 161, 0.199);
+   
+    background-color: rgba(128, 128, 128, 0.178);
+
+}
+.h1-adv{
+    color: red;
+    font-size: 25px;
+    margin: 25px 35px;
+}
+.break{
+    background-color: rgba(168, 168, 168, 0.267);
+    width: 100%;
+    height: 2px;
+    
+}
+form{
+    width: 40%;
+}
+.Form h1{
+    color: rgba(94, 93, 93, 0.514);
+    margin-top: 30px;
+}
+.Form .lb1 label{
+    width: 200px;
+   margin: 10px;
+   color: grey;
+}
+.Form .lb1{
+    display: flex;
+    align-items: center;
+}
+
+.Form .lb1 input{
+    width: 350px;
+    height: 27px;
+    margin: 15px;
+    border: 1px solid rgba(165, 165, 165, 0.644);
+}
+.btn1-adv{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-adv{
+    width:150px;
+    height: 35px;
+    background-color: rgba(5, 93, 151, 0.788);
+    border: none;
+    margin: 20px;
+    /* margin-left: 28%; */
+  
+}
+.btn-adv a{
+    text-decoration: none;
+    color: white;
+}
