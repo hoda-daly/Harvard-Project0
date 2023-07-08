@@ -68,9 +68,7 @@ html{
     height: 2px;
     
 }
-form{
-    width: 40%;
-}
+
 .Form h1{
     color: rgba(94, 93, 93, 0.514);
     margin-top: 30px;
@@ -85,13 +83,13 @@ form{
     align-items: center;
 }
 
-.Form .lb1 input{
+ .lb1 input{
     width: 350px;
     height: 27px;
     margin: 15px;
     border: 1px solid rgba(165, 165, 165, 0.644);
 }
-.btn1-adv{
+.Form.btn1-adv{
     display: flex;
     justify-content: flex-end;
 }
@@ -101,7 +99,7 @@ form{
     background-color: rgba(5, 93, 151, 0.788);
     border: none;
     margin: 20px;
-    /* margin-left: 28%; */
+    margin-left: 28%;
   
 }
 .btn-adv a{
